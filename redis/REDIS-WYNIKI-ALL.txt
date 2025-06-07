@@ -1,0 +1,401 @@
+ Importuję użytkowników...
+ Użytkownicy zaimportowani w 0.3532 s.
+️ Importuję posty...
+ Posty zaimportowane w 3.299 s.
+ Importuję komentarze...
+ Komentarze zaimportowane w 16.0473 s.
+Import zakończony.
+
+============================================================
+1. DODAWANIE NOWYCH REKORDÓW
+============================================================
+
+ Dodawanie użytkownika
+  ️ Próba 1: 0.0004 s (klucz: user:test1)
+  ️ Próba 2: 0.0004 s (klucz: user:test2)
+  ️ Próba 3: 0.0003 s (klucz: user:test3)
+  ️ Próba 4: 0.0004 s (klucz: user:test4)
+  ️ Próba 5: 0.0004 s (klucz: user:test5)
+  ️ Próba 6: 0.0003 s (klucz: user:test6)
+  ️ Próba 7: 0.0003 s (klucz: user:test7)
+  ️ Próba 8: 0.0005 s (klucz: user:test8)
+  ️ Próba 9: 0.0003 s (klucz: user:test9)
+  ️ Próba 10: 0.0003 s (klucz: user:test10)
+  Średnia: 0.0004 s
+
+ Dodawanie posta
+  ️ Próba 1: 0.0004 s (klucz: post:test1)
+  ️ Próba 2: 0.0004 s (klucz: post:test2)
+  ️ Próba 3: 0.0004 s (klucz: post:test3)
+  ️ Próba 4: 0.0004 s (klucz: post:test4)
+  ️ Próba 5: 0.0003 s (klucz: post:test5)
+  ️ Próba 6: 0.0005 s (klucz: post:test6)
+  ️ Próba 7: 0.0003 s (klucz: post:test7)
+  ️ Próba 8: 0.0003 s (klucz: post:test8)
+  ️ Próba 9: 0.0003 s (klucz: post:test9)
+  ️ Próba 10: 0.0003 s (klucz: post:test10)
+  Średnia: 0.0004 s
+
+ Dodawanie komentarza
+  ️ Próba 1: 0.0004 s (klucz: comment:test1)
+  ️ Próba 2: 0.0005 s (klucz: comment:test2)
+  ️ Próba 3: 0.0004 s (klucz: comment:test3)
+  ️ Próba 4: 0.0003 s (klucz: comment:test4)
+  ️ Próba 5: 0.0004 s (klucz: comment:test5)
+  ️ Próba 6: 0.0004 s (klucz: comment:test6)
+  ️ Próba 7: 0.0003 s (klucz: comment:test7)
+  ️ Próba 8: 0.0003 s (klucz: comment:test8)
+  ️ Próba 9: 0.0003 s (klucz: comment:test9)
+  ️ Próba 10: 0.0003 s (klucz: comment:test10)
+  Średnia: 0.0004 s
+
+============================================================
+2. ODCZYT DANYCH
+============================================================
+
+
+a) PEŁNE ODCZYTY
+
+ Odczyt wszystkich użytkowników
+   Próba 1: 0.0525 s (rekordów: 1010)
+   Próba 2: 0.0488 s (rekordów: 1010)
+   Próba 3: 0.0499 s (rekordów: 1010)
+   Próba 4: 0.0501 s (rekordów: 1010)
+   Próba 5: 0.0495 s (rekordów: 1010)
+   Próba 6: 0.05 s (rekordów: 1010)
+   Próba 7: 0.0501 s (rekordów: 1010)
+   Próba 8: 0.0499 s (rekordów: 1010)
+   Próba 9: 0.0497 s (rekordów: 1010)
+   Próba 10: 0.0502 s (rekordów: 1010)
+   Średnia: 0.0501 s
+
+ Odczyt wszystkich postów
+   Próba 1: 0.0315 s (rekordów: 10010)
+   Próba 2: 0.0722 s (rekordów: 10010)
+   Próba 3: 0.0784 s (rekordów: 10010)
+   Próba 4: 0.0696 s (rekordów: 10010)
+   Próba 5: 0.0285 s (rekordów: 10010)
+   Próba 6: 0.0716 s (rekordów: 10010)
+   Próba 7: 0.0694 s (rekordów: 10010)
+   Próba 8: 0.0735 s (rekordów: 10010)
+   Próba 9: 0.078 s (rekordów: 10010)
+   Próba 10: 0.0319 s (rekordów: 10010)
+   Średnia: 0.0605 s
+
+ Odczyt wszystkich komentarzy
+   Próba 1: 0.2046 s (rekordów: 50010)
+   Próba 2: 0.2129 s (rekordów: 50010)
+   Próba 3: 0.2079 s (rekordów: 50010)
+   Próba 4: 0.2141 s (rekordów: 50010)
+   Próba 5: 0.1493 s (rekordów: 50010)
+   Próba 6: 0.1459 s (rekordów: 50010)
+   Próba 7: 0.1498 s (rekordów: 50010)
+   Próba 8: 0.1469 s (rekordów: 50010)
+   Próba 9: 0.1853 s (rekordów: 50010)
+   Próba 10: 0.198 s (rekordów: 50010)
+   Średnia: 0.1815 s
+
+
+b) FILTROWANE ODCZYTY
+
+ Filtrowany odczyt postów użytkownika gdzie userId = 999
+   Próba 1: 0.0918 s (rekordów pasujących: 20)
+   Próba 2: 0.0904 s (rekordów pasujących: 20)
+   Próba 3: 0.0436 s (rekordów pasujących: 20)
+   Próba 4: 0.0849 s (rekordów pasujących: 20)
+   Próba 5: 0.1015 s (rekordów pasujących: 20)
+   Próba 6: 0.066 s (rekordów pasujących: 20)
+   Próba 7: 0.044 s (rekordów pasujących: 20)
+   Próba 8: 0.0433 s (rekordów pasujących: 20)
+   Próba 9: 0.0844 s (rekordów pasujących: 20)
+   Próba 10: 0.0901 s (rekordów pasujących: 20)
+   Średnia: 0.074 s
+
+ Filtrowany odczyt postów użytkownika gdzie userId = 100
+   Próba 1: 0.0901 s (rekordów pasujących: 10)
+   Próba 2: 0.042 s (rekordów pasujących: 10)
+   Próba 3: 0.1005 s (rekordów pasujących: 10)
+   Próba 4: 0.0867 s (rekordów pasujących: 10)
+   Próba 5: 0.0893 s (rekordów pasujących: 10)
+   Próba 6: 0.0916 s (rekordów pasujących: 10)
+   Próba 7: 0.09 s (rekordów pasujących: 10)
+   Próba 8: 0.0885 s (rekordów pasujących: 10)
+   Próba 9: 0.0903 s (rekordów pasujących: 10)
+   Próba 10: 0.0899 s (rekordów pasujących: 10)
+   Średnia: 0.0859 s
+
+ Filtrowany odczyt postów użytkownika gdzie userId = 199
+   Próba 1: 0.09 s (rekordów pasujących: 10)
+   Próba 2: 0.0888 s (rekordów pasujących: 10)
+   Próba 3: 0.0894 s (rekordów pasujących: 10)
+   Próba 4: 0.0904 s (rekordów pasujących: 10)
+   Próba 5: 0.1086 s (rekordów pasujących: 10)
+   Próba 6: 0.0422 s (rekordów pasujących: 10)
+   Próba 7: 0.0896 s (rekordów pasujących: 10)
+   Próba 8: 0.0423 s (rekordów pasujących: 10)
+   Próba 9: 0.1082 s (rekordów pasujących: 10)
+   Próba 10: 0.0886 s (rekordów pasujących: 10)
+   Średnia: 0.0838 s
+
+ Filtrowany odczyt komentarzy do posta gdzie postId = 1000
+   Próba 1: 0.2399 s (rekordów pasujących: 5)
+   Próba 2: 0.2732 s (rekordów pasujących: 5)
+   Próba 3: 0.3129 s (rekordów pasujących: 5)
+   Próba 4: 0.2421 s (rekordów pasujących: 5)
+   Próba 5: 0.2849 s (rekordów pasujących: 5)
+   Próba 6: 0.2584 s (rekordów pasujących: 5)
+   Próba 7: 0.2194 s (rekordów pasujących: 5)
+   Próba 8: 0.2598 s (rekordów pasujących: 5)
+   Próba 9: 0.2203 s (rekordów pasujących: 5)
+   Próba 10: 0.2176 s (rekordów pasujących: 5)
+   Średnia: 0.2528 s
+
+ Filtrowany odczyt komentarzy do posta gdzie postId = 2000
+   Próba 1: 0.2714 s (rekordów pasujących: 5)
+   Próba 2: 0.2614 s (rekordów pasujących: 5)
+   Próba 3: 0.2587 s (rekordów pasujących: 5)
+   Próba 4: 0.2712 s (rekordów pasujących: 5)
+   Próba 5: 0.2661 s (rekordów pasujących: 5)
+   Próba 6: 0.2619 s (rekordów pasujących: 5)
+   Próba 7: 0.2897 s (rekordów pasujących: 5)
+   Próba 8: 0.2684 s (rekordów pasujących: 5)
+   Próba 9: 0.2694 s (rekordów pasujących: 5)
+   Próba 10: 0.2154 s (rekordów pasujących: 5)
+   Średnia: 0.2634 s
+
+ Filtrowany odczyt komentarzy do posta gdzie postId = 3000
+   Próba 1: 0.2624 s (rekordów pasujących: 5)
+   Próba 2: 0.2666 s (rekordów pasujących: 5)
+   Próba 3: 0.2656 s (rekordów pasujących: 5)
+   Próba 4: 0.2608 s (rekordów pasujących: 5)
+   Próba 5: 0.2715 s (rekordów pasujących: 5)
+   Próba 6: 0.27 s (rekordów pasujących: 5)
+   Próba 7: 0.2858 s (rekordów pasujących: 5)
+   Próba 8: 0.2233 s (rekordów pasujących: 5)
+   Próba 9: 0.2849 s (rekordów pasujących: 5)
+   Próba 10: 0.2626 s (rekordów pasujących: 5)
+   Średnia: 0.2653 s
+
+============================================================
+3. MODYFIKACJA ISTNIEJĄCYCH DANYCH
+============================================================
+
+ Modyfikacja użytkownika user:1
+  ️ Próba 1: 0.0009 s (nowy email: updated1_1@example.com)
+  ️ Próba 2: 0.0007 s (nowy email: updated2_1@example.com)
+  ️ Próba 3: 0.0007 s (nowy email: updated3_1@example.com)
+  ️ Próba 4: 0.0008 s (nowy email: updated4_1@example.com)
+  ️ Próba 5: 0.0007 s (nowy email: updated5_1@example.com)
+  ️ Próba 6: 0.0007 s (nowy email: updated6_1@example.com)
+  ️ Próba 7: 0.0007 s (nowy email: updated7_1@example.com)
+  ️ Próba 8: 0.0007 s (nowy email: updated8_1@example.com)
+  ️ Próba 9: 0.0007 s (nowy email: updated9_1@example.com)
+  ️ Próba 10: 0.0007 s (nowy email: updated10_1@example.com)
+   Średnia: 0.0007 s
+
+ Modyfikacja użytkownika user:2
+  ️ Próba 1: 0.0007 s (nowy email: updated1_2@example.com)
+  ️ Próba 2: 0.0008 s (nowy email: updated2_2@example.com)
+  ️ Próba 3: 0.0007 s (nowy email: updated3_2@example.com)
+  ️ Próba 4: 0.0007 s (nowy email: updated4_2@example.com)
+  ️ Próba 5: 0.0007 s (nowy email: updated5_2@example.com)
+  ️ Próba 6: 0.0007 s (nowy email: updated6_2@example.com)
+  ️ Próba 7: 0.0009 s (nowy email: updated7_2@example.com)
+  ️ Próba 8: 0.0008 s (nowy email: updated8_2@example.com)
+  ️ Próba 9: 0.0008 s (nowy email: updated9_2@example.com)
+  ️ Próba 10: 0.0007 s (nowy email: updated10_2@example.com)
+   Średnia: 0.0008 s
+
+ Modyfikacja użytkownika user:3
+  ️ Próba 1: 0.0007 s (nowy email: updated1_3@example.com)
+  ️ Próba 2: 0.0007 s (nowy email: updated2_3@example.com)
+  ️ Próba 3: 0.0007 s (nowy email: updated3_3@example.com)
+  ️ Próba 4: 0.0007 s (nowy email: updated4_3@example.com)
+  ️ Próba 5: 0.0007 s (nowy email: updated5_3@example.com)
+  ️ Próba 6: 0.0007 s (nowy email: updated6_3@example.com)
+  ️ Próba 7: 0.0008 s (nowy email: updated7_3@example.com)
+  ️ Próba 8: 0.0007 s (nowy email: updated8_3@example.com)
+  ️ Próba 9: 0.0007 s (nowy email: updated9_3@example.com)
+  ️ Próba 10: 0.0007 s (nowy email: updated10_3@example.com)
+   Średnia: 0.0007 s
+
+============================================================
+4. USUWANIE DOKUMENTÓW
+============================================================
+
+ Usuwanie użytkownika
+   Próba 1: 0.0004 s (usunięto: user:test1)
+   Próba 2: 0.0003 s (usunięto: user:test2)
+   Próba 3: 0.0003 s (usunięto: user:test3)
+   Próba 4: 0.0003 s (usunięto: user:test4)
+   Próba 5: 0.0004 s (usunięto: user:test5)
+   Próba 6: 0.0003 s (usunięto: user:test6)
+   Próba 7: 0.0003 s (usunięto: user:test7)
+   Próba 8: 0.0003 s (usunięto: user:test8)
+   Próba 9: 0.0003 s (usunięto: user:test9)
+   Próba 10: 0.0003 s (usunięto: user:test10)
+  Średnia: 0.0003 s
+
+ Usuwanie posta
+   Próba 1: 0.0003 s (usunięto: post:test1)
+   Próba 2: 0.0003 s (usunięto: post:test2)
+   Próba 3: 0.0004 s (usunięto: post:test3)
+   Próba 4: 0.0004 s (usunięto: post:test4)
+   Próba 5: 0.0003 s (usunięto: post:test5)
+   Próba 6: 0.0003 s (usunięto: post:test6)
+   Próba 7: 0.0003 s (usunięto: post:test7)
+   Próba 8: 0.0003 s (usunięto: post:test8)
+   Próba 9: 0.0003 s (usunięto: post:test9)
+   Próba 10: 0.0003 s (usunięto: post:test10)
+  Średnia: 0.0003 s
+
+ Usuwanie komentarza
+   Próba 1: 0.0003 s (usunięto: comment:test1)
+   Próba 2: 0.0003 s (usunięto: comment:test2)
+   Próba 3: 0.0003 s (usunięto: comment:test3)
+   Próba 4: 0.0003 s (usunięto: comment:test4)
+   Próba 5: 0.0003 s (usunięto: comment:test5)
+   Próba 6: 0.0004 s (usunięto: comment:test6)
+   Próba 7: 0.0004 s (usunięto: comment:test7)
+   Próba 8: 0.0004 s (usunięto: comment:test8)
+   Próba 9: 0.0003 s (usunięto: comment:test9)
+   Próba 10: 0.0003 s (usunięto: comment:test10)
+  Średnia: 0.0003 s
+
+============================================================
+5. ZLICZANIE I AGREGACJA DANYCH
+============================================================
+
+ Zliczanie wszystkich użytkowników
+  ️ Próba 1: 0.003 s (rekordów: 1000)
+  ️ Próba 2: 0.0025 s (rekordów: 1000)
+  ️ Próba 3: 0.0024 s (rekordów: 1000)
+  ️ Próba 4: 0.0021 s (rekordów: 1000)
+  ️ Próba 5: 0.0021 s (rekordów: 1000)
+  ️ Próba 6: 0.002 s (rekordów: 1000)
+  ️ Próba 7: 0.002 s (rekordów: 1000)
+  ️ Próba 8: 0.0021 s (rekordów: 1000)
+  ️ Próba 9: 0.002 s (rekordów: 1000)
+  ️ Próba 10: 0.002 s (rekordów: 1000)
+   Średnia: 0.0022 s
+
+ Zliczanie wszystkich postów
+  ️ Próba 1: 0.0091 s (rekordów: 10000)
+  ️ Próba 2: 0.0092 s (rekordów: 10000)
+  ️ Próba 3: 0.0091 s (rekordów: 10000)
+  ️ Próba 4: 0.0089 s (rekordów: 10000)
+  ️ Próba 5: 0.0091 s (rekordów: 10000)
+  ️ Próba 6: 0.0086 s (rekordów: 10000)
+  ️ Próba 7: 0.0084 s (rekordów: 10000)
+  ️ Próba 8: 0.0092 s (rekordów: 10000)
+  ️ Próba 9: 0.0111 s (rekordów: 10000)
+  ️ Próba 10: 0.0127 s (rekordów: 10000)
+   Średnia: 0.0095 s
+
+ Zliczanie wszystkich komentarzy
+  ️ Próba 1: 0.0521 s (rekordów: 50000)
+  ️ Próba 2: 0.0413 s (rekordów: 50000)
+  ️ Próba 3: 0.0385 s (rekordów: 50000)
+  ️ Próba 4: 0.0393 s (rekordów: 50000)
+  ️ Próba 5: 0.0396 s (rekordów: 50000)
+  ️ Próba 6: 0.0389 s (rekordów: 50000)
+  ️ Próba 7: 0.0397 s (rekordów: 50000)
+  ️ Próba 8: 0.0392 s (rekordów: 50000)
+  ️ Próba 9: 0.039 s (rekordów: 50000)
+  ️ Próba 10: 0.0384 s (rekordów: 50000)
+   Średnia: 0.0406 s
+
+ Zliczanie postów użytkownika gdzie userId = 999
+  ️ Próba 1: 0.0446 s (dopasowań: 10)
+  ️ Próba 2: 0.0502 s (dopasowań: 10)
+  ️ Próba 3: 0.0545 s (dopasowań: 10)
+  ️ Próba 4: 0.0929 s (dopasowań: 10)
+  ️ Próba 5: 0.0423 s (dopasowań: 10)
+  ️ Próba 6: 0.0411 s (dopasowań: 10)
+  ️ Próba 7: 0.0857 s (dopasowań: 10)
+  ️ Próba 8: 0.0896 s (dopasowań: 10)
+  ️ Próba 9: 0.0904 s (dopasowań: 10)
+  ️ Próba 10: 0.0895 s (dopasowań: 10)
+   Średnia: 0.0681 s
+
+ Zliczanie komentarzy do posta gdzie postId = 1234
+  ️ Próba 1: 0.2634 s (dopasowań: 5)
+  ️ Próba 2: 0.2174 s (dopasowań: 5)
+  ️ Próba 3: 0.2738 s (dopasowań: 5)
+  ️ Próba 4: 0.256 s (dopasowań: 5)
+  ️ Próba 5: 0.259 s (dopasowań: 5)
+  ️ Próba 6: 0.2592 s (dopasowań: 5)
+  ️ Próba 7: 0.2162 s (dopasowań: 5)
+  ️ Próba 8: 0.2646 s (dopasowań: 5)
+  ️ Próba 9: 0.2687 s (dopasowań: 5)
+  ️ Próba 10: 0.2608 s (dopasowań: 5)
+   Średnia: 0.2539 s
+
+============================================================
+6. TESTY WYDAJNOŚCIOWE
+============================================================
+
+ Odczyt wszystkich postów
+  ️ Próba 1: 0.0285 s (rekordów: 10000)
+  ️ Próba 2: 0.0291 s (rekordów: 10000)
+  ️ Próba 3: 0.0753 s (rekordów: 10000)
+  ️ Próba 4: 0.0281 s (rekordów: 10000)
+  ️ Próba 5: 0.0714 s (rekordów: 10000)
+  ️ Próba 6: 0.0271 s (rekordów: 10000)
+  ️ Próba 7: 0.072 s (rekordów: 10000)
+  ️ Próba 8: 0.0703 s (rekordów: 10000)
+  ️ Próba 9: 0.0707 s (rekordów: 10000)
+  ️ Próba 10: 0.0695 s (rekordów: 10000)
+   Średnia: 0.0542 s
+
+ Posty użytkownika o id = 999
+   Próba 1: 0.0842 s (dopasowań: 10)
+   Próba 2: 0.0907 s (dopasowań: 10)
+   Próba 3: 0.0886 s (dopasowań: 10)
+   Próba 4: 0.1025 s (dopasowań: 10)
+   Próba 5: 0.0878 s (dopasowań: 10)
+   Próba 6: 0.0895 s (dopasowań: 10)
+   Próba 7: 0.0897 s (dopasowań: 10)
+   Próba 8: 0.0414 s (dopasowań: 10)
+   Próba 9: 0.0416 s (dopasowań: 10)
+   Próba 10: 0.0866 s (dopasowań: 10)
+  Średnia: 0.0803 s
+
+ Masowe dodanie 100 postów
+  ️ Próba 1: 0.0339 s (posty: 200000–200099)
+  ️ Próba 2: 0.0334 s (posty: 200100–200199)
+  ️ Próba 3: 0.0332 s (posty: 200200–200299)
+  ️ Próba 4: 0.033 s (posty: 200300–200399)
+  ️ Próba 5: 0.033 s (posty: 200400–200499)
+  ️ Próba 6: 0.0329 s (posty: 200500–200599)
+  ️ Próba 7: 0.0334 s (posty: 200600–200699)
+  ️ Próba 8: 0.0337 s (posty: 200700–200799)
+  ️ Próba 9: 0.033 s (posty: 200800–200899)
+  ️ Próba 10: 0.0327 s (posty: 200900–200999)
+   Średnia: 0.0332 s
+
+ Masowe dodanie 100 komentarzy
+  Próba 1: 0.0331 s (komentarze: 80000–80099)
+  Próba 2: 0.0332 s (komentarze: 80100–80199)
+  Próba 3: 0.034 s (komentarze: 80200–80299)
+  Próba 4: 0.0334 s (komentarze: 80300–80399)
+  Próba 5: 0.0335 s (komentarze: 80400–80499)
+  Próba 6: 0.0332 s (komentarze: 80500–80599)
+  Próba 7: 0.0338 s (komentarze: 80600–80699)
+  Próba 8: 0.034 s (komentarze: 80700–80799)
+  Próba 9: 0.0343 s (komentarze: 80800–80899)
+  Próba 10: 0.0332 s (komentarze: 80900–80999)
+   Średnia: 0.0336 s
+
+ Masowe usunięcie 100 komentarzy
+  ️ Próba 1: 0.0323 s (komentarze: 80000–80099)
+  ️ Próba 2: 0.0318 s (komentarze: 80100–80199)
+  ️ Próba 3: 0.0317 s (komentarze: 80200–80299)
+  ️ Próba 4: 0.032 s (komentarze: 80300–80399)
+  ️ Próba 5: 0.0317 s (komentarze: 80400–80499)
+  ️ Próba 6: 0.0314 s (komentarze: 80500–80599)
+  ️ Próba 7: 0.03 s (komentarze: 80600–80699)
+  ️ Próba 8: 0.0307 s (komentarze: 80700–80799)
+  ️ Próba 9: 0.0297 s (komentarze: 80800–80899)
+  ️ Próba 10: 0.0301 s (komentarze: 80900–80999)
+   Średnia: 0.0311 s

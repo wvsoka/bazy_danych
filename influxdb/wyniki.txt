@@ -1,0 +1,94 @@
+== Dodawanie wszystkich użytkowników ==
+Dodaj użytkowników                            60.072 s (średnio z 1 prób)
+== Dodawanie wszystkich  postów ==
+Dodaj posty                                   512.599 s (średnio z 1 prób)
+== Dodawanie wszystkich  komentarzy ==
+Dodaj komentarze                              2612.327 s (średnio z 1 prób)
+== Dodawanie rekordów (1 user, 1 post, 1 komentarz po 10 razy) ==
+Dodaj 1 użytkownika 10x                       0.598 s (średnio z 1 prób)
+Dodaj 1 posta 10x                             0.590 s (średnio z 1 prób)
+Dodaj 1 komentarz 10x                         0.522 s (średnio z 1 prób)
+
+== Odczyt danych 10 razy ==
+Odczyt wszystkich użytkowników 10x            1.989 s (średnio z 1 prób)
+Odczyt wszystkich postów 10x                  2.752 s (średnio z 1 prób)
+Odczyt wszystkich komentarzy 10x              22.877 s (średnio z 1 prób)
+
+== Filtrowanie danych 10 razy ==
+Filtrowanie postów userId=100 10x             0.499 s (średnio z 1 prób)
+Filtrowanie komentarzy postId=100 10x         0.500 s (średnio z 1 prób)
+
+== Modyfikacja email użytkownika id=2 (10x) ==
+Nie znaleziono usera o id=2, nie można modyfikować
+Modyfikuj email usera id=2 10x                0.051 s (średnio z 1 prób)
+
+== Usuwanie rekordów 10 razy ==
+Usuń użytkownika 10x                          0.576 s (średnio z 1 prób)
+Usuń posta 10x                                0.526 s (średnio z 1 prób)
+Usuń komentarz 10x                            0.500 s (średnio z 1 prób)
+
+== Zliczanie rekordów 10 razy ==
+Zlicz użytkowników 10x                        2.395 s (średnio z 1 prób)
+Zlicz posty 10x                               1.647 s (średnio z 1 prób)
+Zlicz komentarze 10x                          22.990 s (średnio z 1 prób)
+
+== Testy wydajnościowe ==
+ODCZYT WSZYSTKICH POSTÓW [s]
+Odczyt wszystkich postów - Próba 1: 0.247 s
+Odczyt wszystkich postów - Próba 2: 0.284 s
+Odczyt wszystkich postów - Próba 3: 0.268 s
+Odczyt wszystkich postów - Próba 4: 0.263 s
+Odczyt wszystkich postów - Próba 5: 0.290 s
+Odczyt wszystkich postów - Próba 6: 0.269 s
+Odczyt wszystkich postów - Próba 7: 0.268 s
+Odczyt wszystkich postów - Próba 8: 0.278 s
+Odczyt wszystkich postów - Próba 9: 0.273 s
+Odczyt wszystkich postów - Próba 10: 0.263 s
+
+Posty użytkownika o id = 999
+Posty usera 999 - Próba 1: 0.053 s
+Posty usera 999 - Próba 2: 0.049 s
+Posty usera 999 - Próba 3: 0.050 s
+Posty usera 999 - Próba 4: 0.050 s
+Posty usera 999 - Próba 5: 0.050 s
+Posty usera 999 - Próba 6: 0.051 s
+Posty usera 999 - Próba 7: 0.050 s
+Posty usera 999 - Próba 8: 0.050 s
+Posty usera 999 - Próba 9: 0.050 s
+Posty usera 999 - Próba 10: 0.050 s
+
+Masowe dodanie 100 postów
+Masowe dodanie 100 postów - Próba 1: 5.002 s
+Masowe dodanie 100 postów - Próba 2: 5.030 s
+Masowe dodanie 100 postów - Próba 3: 5.020 s
+Masowe dodanie 100 postów - Próba 4: 5.118 s
+Masowe dodanie 100 postów - Próba 5: 5.030 s
+Masowe dodanie 100 postów - Próba 6: 5.050 s
+Masowe dodanie 100 postów - Próba 7: 5.040 s
+Masowe dodanie 100 postów - Próba 8: 5.019 s
+Masowe dodanie 100 postów - Próba 9: 5.019 s
+Masowe dodanie 100 postów - Próba 10: 5.040 s
+
+Masowe dodanie 100 komentarzy
+Masowe dodanie 100 komentarzy - Próba 1: 5.050 s
+Masowe dodanie 100 komentarzy - Próba 2: 5.008 s
+Masowe dodanie 100 komentarzy - Próba 3: 5.000 s
+Masowe dodanie 100 komentarzy - Próba 4: 4.999 s
+Masowe dodanie 100 komentarzy - Próba 5: 5.021 s
+Masowe dodanie 100 komentarzy - Próba 6: 5.010 s
+Masowe dodanie 100 komentarzy - Próba 7: 5.020 s
+Masowe dodanie 100 komentarzy - Próba 8: 5.001 s
+Masowe dodanie 100 komentarzy - Próba 9: 4.998 s
+Masowe dodanie 100 komentarzy - Próba 10: 5.000 s
+
+Masowe usunięcie 100 komentarzy
+Masowe usunięcie 100 komentarzy - Próba 1: 5.021 s
+Masowe usunięcie 100 komentarzy - Próba 2: 5.000 s
+Masowe usunięcie 100 komentarzy - Próba 3: 5.030 s
+Masowe usunięcie 100 komentarzy - Próba 4: 5.009 s
+Masowe usunięcie 100 komentarzy - Próba 5: 5.020 s
+Masowe usunięcie 100 komentarzy - Próba 6: 5.009 s
+Masowe usunięcie 100 komentarzy - Próba 7: 5.021 s
+Masowe usunięcie 100 komentarzy - Próba 8: 5.009 s
+Masowe usunięcie 100 komentarzy - Próba 9: 5.031 s
+Masowe usunięcie 100 komentarzy - Próba 10: 5.010 s

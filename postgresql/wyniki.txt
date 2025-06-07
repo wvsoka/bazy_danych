@@ -1,0 +1,270 @@
+  Odczyt wszystkich postów
+  Próba 1: 0.0009 s (rekordów: 0)
+  Próba 2: 0.0010 s (rekordów: 0)
+  Próba 3: 0.0010 s (rekordów: 0)
+  Próba 4: 0.0011 s (rekordów: 0)
+  Próba 5: 0.0011 s (rekordów: 0)
+  Próba 6: 0.0011 s (rekordów: 0)
+  Próba 7: 0.0011 s (rekordów: 0)
+  Próba 8: 0.0009 s (rekordów: 0)
+  Próba 9: 0.0009 s (rekordów: 0)
+  Próba 10: 0.0010 s (rekordów: 0)
+  Średnia: 0.0010 s
+
+  Posty użytkownika o id = 999
+  Próba 1: 0.0012 s (rekordów: 0)
+  Próba 2: 0.0009 s (rekordów: 0)
+  Próba 3: 0.0010 s (rekordów: 0)
+  Próba 4: 0.0010 s (rekordów: 0)
+  Próba 5: 0.0010 s (rekordów: 0)
+  Próba 6: 0.0011 s (rekordów: 0)
+  Próba 7: 0.0010 s (rekordów: 0)
+  Próba 8: 0.0010 s (rekordów: 0)
+  Próba 9: 0.0011 s (rekordów: 0)
+  Próba 10: 0.0011 s (rekordów: 0)
+  Średnia: 0.0010 s
+
+  Masowe dodanie 100 postów
+  Próba 1: 0.0057 s (id: 999900–999999)
+  Próba 2: 0.0040 s (id: 999900–999999)
+  Próba 3: 0.0039 s (id: 999900–999999)
+  Próba 4: 0.0041 s (id: 999900–999999)
+  Próba 5: 0.0040 s (id: 999900–999999)
+  Próba 6: 0.0040 s (id: 999900–999999)
+  Próba 7: 0.0040 s (id: 999900–999999)
+  Próba 8: 0.0039 s (id: 999900–999999)
+  Próba 9: 0.0040 s (id: 999900–999999)
+  Próba 10: 0.0040 s (id: 999900–999999)
+  Średnia: 0.0042 s
+
+  Masowe dodanie 100 komentarzy
+  Próba 1: 0.0040 s (id: 888800–888899)
+  Próba 2: 0.0040 s (id: 888800–888899)
+  Próba 3: 0.0050 s (id: 888800–888899)
+  Próba 4: 0.0041 s (id: 888800–888899)
+  Próba 5: 0.0039 s (id: 888800–888899)
+  Próba 6: 0.0042 s (id: 888800–888899)
+  Próba 7: 0.0041 s (id: 888800–888899)
+  Próba 8: 0.0059 s (id: 888800–888899)
+  Próba 9: 0.0041 s (id: 888800–888899)
+  Próba 10: 0.0042 s (id: 888800–888899)
+  Średnia: 0.0044 s
+
+  Masowe usunięcie 100 komentarzy
+  Próba 1: 0.0015 s (usunięto: 0 komentarzy)
+  Próba 2: 0.0014 s (usunięto: 0 komentarzy)
+  Próba 3: 0.0016 s (usunięto: 0 komentarzy)
+  Próba 4: 0.0015 s (usunięto: 0 komentarzy)
+  Próba 5: 0.0014 s (usunięto: 0 komentarzy)
+  Próba 6: 0.0014 s (usunięto: 0 komentarzy)
+  Próba 7: 0.0017 s (usunięto: 0 komentarzy)
+  Próba 8: 0.0016 s (usunięto: 0 komentarzy)
+  Próba 9: 0.0016 s (usunięto: 0 komentarzy)
+  Próba 10: 0.0015 s (usunięto: 0 komentarzy)
+  Średnia: 0.0015 s
+
+  Dodanie użytkownika 10 razy
+  Próba 1: 0.0773 s
+  Próba 2: 0.0781 s
+  Próba 3: 0.0798 s
+  Próba 4: 0.0784 s
+  Próba 5: 0.0779 s
+  Próba 6: 0.0783 s
+  Próba 7: 0.0781 s
+  Próba 8: 0.0781 s
+  Próba 9: 0.0761 s
+  Próba 10: 0.0784 s
+  Średnia: 0.0780 s
+
+  Dodanie posta 10 razy
+  Próba 1: 0.0836 s
+  Próba 2: 0.0835 s
+  Próba 3: 0.0819 s
+  Próba 4: 0.0820 s
+  Próba 5: 0.0822 s
+  Próba 6: 0.0824 s
+  Próba 7: 0.0821 s
+  Próba 8: 0.0817 s
+  Próba 9: 0.0838 s
+  Próba 10: 0.0822 s
+  Średnia: 0.0825 s
+
+  Dodanie komentarza 10 razy
+  Próba 1: 0.0879 s
+  Próba 2: 0.0860 s
+  Próba 3: 0.0878 s
+  Próba 4: 0.0856 s
+  Próba 5: 0.0856 s
+  Próba 6: 0.0876 s
+  Próba 7: 0.0873 s
+  Próba 8: 0.0883 s
+  Próba 9: 0.0872 s
+  Próba 10: 0.0879 s
+  Średnia: 0.0871 s
+
+  Odczyt użytkowników 10 razy
+  Próba 1: 0.0389 s
+  Próba 2: 0.0372 s
+  Próba 3: 0.0369 s
+  Próba 4: 0.0371 s
+  Próba 5: 0.0390 s
+  Próba 6: 0.0369 s
+  Próba 7: 0.0411 s
+  Próba 8: 0.0383 s
+  Próba 9: 0.0389 s
+  Próba 10: 0.0400 s
+  Średnia: 0.0384 s
+
+  Odczyt postów 10 razy
+  Próba 1: 0.0314 s
+  Próba 2: 0.0312 s
+  Próba 3: 0.0314 s
+  Próba 4: 0.0313 s
+  Próba 5: 0.0312 s
+  Próba 6: 0.0313 s
+  Próba 7: 0.0313 s
+  Próba 8: 0.0332 s
+  Próba 9: 0.0314 s
+  Próba 10: 0.0312 s
+  Średnia: 0.0315 s
+
+  Odczyt komentarzy 10 razy
+  Próba 1: 0.1876 s
+  Próba 2: 0.1872 s
+  Próba 3: 0.1850 s
+  Próba 4: 0.1854 s
+  Próba 5: 0.1868 s
+  Próba 6: 0.1849 s
+  Próba 7: 0.2175 s
+  Próba 8: 0.1910 s
+  Próba 9: 0.2154 s
+  Próba 10: 0.1872 s
+  Średnia: 0.1928 s
+
+  Filtrowanie postów user_id = 100
+  Próba 1: 0.1897 s
+  Próba 2: 0.1880 s
+  Próba 3: 0.2167 s
+  Próba 4: 0.1816 s
+  Próba 5: 0.1837 s
+  Próba 6: 0.1844 s
+  Próba 7: 0.2120 s
+  Próba 8: 0.1883 s
+  Próba 9: 0.1986 s
+  Próba 10: 0.1899 s
+  Średnia: 0.1933 s
+
+  Filtrowanie komentarzy dla post_id = 100
+  Próba 1: 0.2274 s
+  Próba 2: 0.1856 s
+  Próba 3: 0.2197 s
+  Próba 4: 0.1873 s
+  Próba 5: 0.1875 s
+  Próba 6: 0.1891 s
+  Próba 7: 0.1893 s
+  Próba 8: 0.1872 s
+  Próba 9: 0.1852 s
+  Próba 10: 0.2157 s
+  Średnia: 0.1974 s
+
+  Zmiana e-maila usera id=2 (10 razy)
+  Próba 1: 0.0588 s
+  Próba 2: 0.0597 s
+  Próba 3: 0.0596 s
+  Próba 4: 0.0597 s
+  Próba 5: 0.0616 s
+  Próba 6: 0.0596 s
+  Próba 7: 0.0599 s
+  Próba 8: 0.0617 s
+  Próba 9: 0.0597 s
+  Próba 10: 0.0600 s
+  Średnia: 0.0600 s
+
+  Usunięcie użytkownika 10 razy
+  Próba 1: 0.0790 s
+  Próba 2: 0.0795 s
+  Próba 3: 0.0800 s
+  Próba 4: 0.0796 s
+  Próba 5: 0.0797 s
+  Próba 6: 0.0797 s
+  Próba 7: 0.0799 s
+  Próba 8: 0.0797 s
+  Próba 9: 0.0796 s
+  Próba 10: 0.0798 s
+  Średnia: 0.0797 s
+
+  Usunięcie posta 10 razy
+  Próba 1: 0.0834 s
+  Próba 2: 0.0838 s
+  Próba 3: 0.0815 s
+  Próba 4: 0.0837 s
+  Próba 5: 0.0836 s
+  Próba 6: 0.0837 s
+  Próba 7: 0.0838 s
+  Próba 8: 0.0838 s
+  Próba 9: 0.0837 s
+  Próba 10: 0.0838 s
+  Średnia: 0.0835 s
+
+  Usunięcie komentarza 10 razy
+  Próba 1: 0.2701 s
+  Próba 2: 0.2577 s
+  Próba 3: 0.2600 s
+  Próba 4: 0.2859 s
+  Próba 5: 0.2619 s
+  Próba 6: 0.2800 s
+  Próba 7: 0.2580 s
+  Próba 8: 0.2560 s
+  Próba 9: 0.2580 s
+  Próba 10: 0.2600 s
+  Średnia: 0.2648 s
+
+  Zliczanie użytkowników 10 razy
+  Próba 1: 0.0271 s
+  Próba 2: 0.0253 s
+  Próba 3: 0.0259 s
+  Próba 4: 0.0258 s
+  Próba 5: 0.0256 s
+  Próba 6: 0.0258 s
+  Próba 7: 0.0263 s
+  Próba 8: 0.0539 s
+  Próba 9: 0.0257 s
+  Próba 10: 0.0256 s
+  Średnia: 0.0287 s
+
+  Zliczanie postów 10 razy
+  Próba 1: 0.0312 s
+  Próba 2: 0.0315 s
+  Próba 3: 0.0316 s
+  Próba 4: 0.0314 s
+  Próba 5: 0.0313 s
+  Próba 6: 0.0333 s
+  Próba 7: 0.0313 s
+  Próba 8: 0.0313 s
+  Próba 9: 0.0314 s
+  Próba 10: 0.0312 s
+  Średnia: 0.0315 s
+
+  Zliczanie komentarzy 10 razy
+  Próba 1: 0.1849 s
+  Próba 2: 0.1851 s
+  Próba 3: 0.1871 s
+  Próba 4: 0.2128 s
+  Próba 5: 0.1831 s
+  Próba 6: 0.2113 s
+  Próba 7: 0.1870 s
+  Próba 8: 0.1851 s
+  Próba 9: 0.1852 s
+  Próba 10: 0.1874 s
+  Średnia: 0.1909 s
+
+============================================================
+6. TESTY WYDAJNOŚCIOWE - srednia
+============================================================
+Dodawanie użytkowników:    0.0213 s
+  Dodawanie postów:          0.1579 s
+  Dodawanie komentarzy:      0.8446 s
+  Masowe dodanie 100 postów: 0.0040 s
+  Usunięcie 100 komentarzy:  0.0014 s
+  Odczyt wszystkich postów:  0.0010 s
+  Filtrowanie postów user 1: 0.0010 s

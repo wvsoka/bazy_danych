@@ -1,0 +1,265 @@
+=== Istniejące testy ===
+[Dodawanie użytkowników] Pomiar 1: 0.008543 s
+[Dodawanie użytkowników] Pomiar 2: 0.007206 s
+[Dodawanie użytkowników] Pomiar 3: 0.007212 s
+[Dodawanie użytkowników] Pomiar 4: 0.008388 s
+[Dodawanie użytkowników] Pomiar 5: 0.006994 s
+[Dodawanie użytkowników] Pomiar 6: 0.006725 s
+[Dodawanie użytkowników] Pomiar 7: 0.007051 s
+[Dodawanie użytkowników] Pomiar 8: 0.006739 s
+[Dodawanie użytkowników] Pomiar 9: 0.007162 s
+[Dodawanie użytkowników] Pomiar 10: 0.006942 s
+[Dodawanie postów] Pomiar 1: 0.061007 s
+[Dodawanie postów] Pomiar 2: 0.051700 s
+[Dodawanie postów] Pomiar 3: 0.048101 s
+[Dodawanie postów] Pomiar 4: 0.051029 s
+[Dodawanie postów] Pomiar 5: 0.049382 s
+[Dodawanie postów] Pomiar 6: 0.048974 s
+[Dodawanie postów] Pomiar 7: 0.055861 s
+[Dodawanie postów] Pomiar 8: 0.049872 s
+[Dodawanie postów] Pomiar 9: 0.047938 s
+[Dodawanie postów] Pomiar 10: 0.047460 s
+[Dodawanie komentarzy] Pomiar 1: 0.312447 s
+[Dodawanie komentarzy] Pomiar 2: 0.258350 s
+[Dodawanie komentarzy] Pomiar 3: 0.262034 s
+[Dodawanie komentarzy] Pomiar 4: 0.262233 s
+[Dodawanie komentarzy] Pomiar 5: 0.257587 s
+[Dodawanie komentarzy] Pomiar 6: 0.269949 s
+[Dodawanie komentarzy] Pomiar 7: 0.261044 s
+[Dodawanie komentarzy] Pomiar 8: 0.254918 s
+[Dodawanie komentarzy] Pomiar 9: 0.266326 s
+[Dodawanie komentarzy] Pomiar 10: 0.255140 s
+[Masowe dodanie 100 postów] Pomiar 1: 0.001288 s
+[Masowe dodanie 100 postów] Pomiar 2: 0.001350 s
+[Masowe dodanie 100 postów] Pomiar 3: 0.001293 s
+[Masowe dodanie 100 postów] Pomiar 4: 0.001323 s
+[Masowe dodanie 100 postów] Pomiar 5: 0.001202 s
+[Masowe dodanie 100 postów] Pomiar 6: 0.001416 s
+[Masowe dodanie 100 postów] Pomiar 7: 0.001281 s
+[Masowe dodanie 100 postów] Pomiar 8: 0.001438 s
+[Masowe dodanie 100 postów] Pomiar 9: 0.001328 s
+[Masowe dodanie 100 postów] Pomiar 10: 0.001296 s
+[Usunięcie 100 komentarzy] Pomiar 1: 0.017356 s
+[Usunięcie 100 komentarzy] Pomiar 2: 0.017668 s
+[Usunięcie 100 komentarzy] Pomiar 3: 0.017944 s
+[Usunięcie 100 komentarzy] Pomiar 4: 0.017391 s
+[Usunięcie 100 komentarzy] Pomiar 5: 0.021179 s
+[Usunięcie 100 komentarzy] Pomiar 6: 0.018137 s
+[Usunięcie 100 komentarzy] Pomiar 7: 0.017220 s
+[Usunięcie 100 komentarzy] Pomiar 8: 0.018382 s
+[Usunięcie 100 komentarzy] Pomiar 9: 0.018012 s
+[Usunięcie 100 komentarzy] Pomiar 10: 0.017643 s
+[Odczyt wszystkich postów] Pomiar 1: 0.021937 s
+[Odczyt wszystkich postów] Pomiar 2: 0.030536 s
+[Odczyt wszystkich postów] Pomiar 3: 0.021661 s
+[Odczyt wszystkich postów] Pomiar 4: 0.021668 s
+[Odczyt wszystkich postów] Pomiar 5: 0.028775 s
+[Odczyt wszystkich postów] Pomiar 6: 0.021850 s
+[Odczyt wszystkich postów] Pomiar 7: 0.021204 s
+[Odczyt wszystkich postów] Pomiar 8: 0.020907 s
+[Odczyt wszystkich postów] Pomiar 9: 0.022069 s
+[Odczyt wszystkich postów] Pomiar 10: 0.021774 s
+[Filtrowanie postów userId=1] Pomiar 1: 0.002940 s
+[Filtrowanie postów userId=1] Pomiar 2: 0.002841 s
+[Filtrowanie postów userId=1] Pomiar 3: 0.002884 s
+[Filtrowanie postów userId=1] Pomiar 4: 0.003088 s
+[Filtrowanie postów userId=1] Pomiar 5: 0.003326 s
+[Filtrowanie postów userId=1] Pomiar 6: 0.002997 s
+[Filtrowanie postów userId=1] Pomiar 7: 0.002864 s
+[Filtrowanie postów userId=1] Pomiar 8: 0.002676 s
+[Filtrowanie postów userId=1] Pomiar 9: 0.002841 s
+[Filtrowanie postów userId=1] Pomiar 10: 0.003003 s
+
+=== Nowe testy ===
+
+Dodawanie 1 użytkownika 10x:
+[Dodawanie pojedynczych użytkowników] Pomiar 1: 0.007049 s
+[Dodawanie pojedynczych użytkowników] Pomiar 2: 0.007620 s
+[Dodawanie pojedynczych użytkowników] Pomiar 3: 0.007230 s
+[Dodawanie pojedynczych użytkowników] Pomiar 4: 0.007176 s
+[Dodawanie pojedynczych użytkowników] Pomiar 5: 0.006815 s
+[Dodawanie pojedynczych użytkowników] Pomiar 6: 0.007110 s
+[Dodawanie pojedynczych użytkowników] Pomiar 7: 0.006847 s
+[Dodawanie pojedynczych użytkowników] Pomiar 8: 0.007096 s
+[Dodawanie pojedynczych użytkowników] Pomiar 9: 0.007334 s
+[Dodawanie pojedynczych użytkowników] Pomiar 10: 0.007154 s
+
+Dodawanie 1 posta 10x:
+[Dodawanie pojedynczych postów] Pomiar 1: 0.006178 s
+[Dodawanie pojedynczych postów] Pomiar 2: 0.005803 s
+[Dodawanie pojedynczych postów] Pomiar 3: 0.005956 s
+[Dodawanie pojedynczych postów] Pomiar 4: 0.006025 s
+[Dodawanie pojedynczych postów] Pomiar 5: 0.005948 s
+[Dodawanie pojedynczych postów] Pomiar 6: 0.006583 s
+[Dodawanie pojedynczych postów] Pomiar 7: 0.005945 s
+[Dodawanie pojedynczych postów] Pomiar 8: 0.005949 s
+[Dodawanie pojedynczych postów] Pomiar 9: 0.006008 s
+[Dodawanie pojedynczych postów] Pomiar 10: 0.006004 s
+
+Dodawanie 1 komentarza 10x:
+[Dodawanie pojedynczych komentarzy] Pomiar 1: 0.006264 s
+[Dodawanie pojedynczych komentarzy] Pomiar 2: 0.005944 s
+[Dodawanie pojedynczych komentarzy] Pomiar 3: 0.006160 s
+[Dodawanie pojedynczych komentarzy] Pomiar 4: 0.006565 s
+[Dodawanie pojedynczych komentarzy] Pomiar 5: 0.006873 s
+[Dodawanie pojedynczych komentarzy] Pomiar 6: 0.006366 s
+[Dodawanie pojedynczych komentarzy] Pomiar 7: 0.006569 s
+[Dodawanie pojedynczych komentarzy] Pomiar 8: 0.006756 s
+[Dodawanie pojedynczych komentarzy] Pomiar 9: 0.005923 s
+[Dodawanie pojedynczych komentarzy] Pomiar 10: 0.006379 s
+
+Odczyt wszystkich użytkowników (10x):
+[Odczyt użytkowników] Pomiar 1: 0.005160 s
+[Odczyt użytkowników] Pomiar 2: 0.005000 s
+[Odczyt użytkowników] Pomiar 3: 0.005501 s
+[Odczyt użytkowników] Pomiar 4: 0.006716 s
+[Odczyt użytkowników] Pomiar 5: 0.007058 s
+[Odczyt użytkowników] Pomiar 6: 0.005192 s
+[Odczyt użytkowników] Pomiar 7: 0.005360 s
+[Odczyt użytkowników] Pomiar 8: 0.005544 s
+[Odczyt użytkowników] Pomiar 9: 0.005286 s
+[Odczyt użytkowników] Pomiar 10: 0.005348 s
+
+Odczyt wszystkich postów (10x):
+[Odczyt postów] Pomiar 1: 0.021832 s
+[Odczyt postów] Pomiar 2: 0.021875 s
+[Odczyt postów] Pomiar 3: 0.029074 s
+[Odczyt postów] Pomiar 4: 0.023301 s
+[Odczyt postów] Pomiar 5: 0.023053 s
+[Odczyt postów] Pomiar 6: 0.020926 s
+[Odczyt postów] Pomiar 7: 0.022818 s
+[Odczyt postów] Pomiar 8: 0.028869 s
+[Odczyt postów] Pomiar 9: 0.020938 s
+[Odczyt postów] Pomiar 10: 0.023067 s
+
+Odczyt wszystkich komentarzy (10x):
+[Odczyt komentarzy] Pomiar 1: 0.148310 s
+[Odczyt komentarzy] Pomiar 2: 0.141783 s
+[Odczyt komentarzy] Pomiar 3: 0.137496 s
+[Odczyt komentarzy] Pomiar 4: 0.134046 s
+[Odczyt komentarzy] Pomiar 5: 0.151453 s
+[Odczyt komentarzy] Pomiar 6: 0.131724 s
+[Odczyt komentarzy] Pomiar 7: 0.144673 s
+[Odczyt komentarzy] Pomiar 8: 0.158074 s
+[Odczyt komentarzy] Pomiar 9: 0.139155 s
+[Odczyt komentarzy] Pomiar 10: 0.143763 s
+
+Filtrowanie postów dla userId=100 (10x):
+[Filtrowanie postów userId=100] Pomiar 1: 0.000956 s
+[Filtrowanie postów userId=100] Pomiar 2: 0.000931 s
+[Filtrowanie postów userId=100] Pomiar 3: 0.000845 s
+[Filtrowanie postów userId=100] Pomiar 4: 0.000966 s
+[Filtrowanie postów userId=100] Pomiar 5: 0.000887 s
+[Filtrowanie postów userId=100] Pomiar 6: 0.000835 s
+[Filtrowanie postów userId=100] Pomiar 7: 0.000824 s
+[Filtrowanie postów userId=100] Pomiar 8: 0.000927 s
+[Filtrowanie postów userId=100] Pomiar 9: 0.000880 s
+[Filtrowanie postów userId=100] Pomiar 10: 0.000900 s
+
+Filtrowanie komentarzy dla postId=100 (10x):
+[Filtrowanie komentarzy postId=100] Pomiar 1: 0.003272 s
+[Filtrowanie komentarzy postId=100] Pomiar 2: 0.003221 s
+[Filtrowanie komentarzy postId=100] Pomiar 3: 0.003058 s
+[Filtrowanie komentarzy postId=100] Pomiar 4: 0.003022 s
+[Filtrowanie komentarzy postId=100] Pomiar 5: 0.003166 s
+[Filtrowanie komentarzy postId=100] Pomiar 6: 0.002904 s
+[Filtrowanie komentarzy postId=100] Pomiar 7: 0.002970 s
+[Filtrowanie komentarzy postId=100] Pomiar 8: 0.003035 s
+[Filtrowanie komentarzy postId=100] Pomiar 9: 0.003268 s
+[Filtrowanie komentarzy postId=100] Pomiar 10: 0.002956 s
+
+Modyfikacja email użytkownika o id=2 (10x):
+[Modyfikacja email] Pomiar 1: 0.006891 s
+[Modyfikacja email] Pomiar 2: 0.006297 s
+[Modyfikacja email] Pomiar 3: 0.006131 s
+[Modyfikacja email] Pomiar 4: 0.006380 s
+[Modyfikacja email] Pomiar 5: 0.006131 s
+[Modyfikacja email] Pomiar 6: 0.006050 s
+[Modyfikacja email] Pomiar 7: 0.006141 s
+[Modyfikacja email] Pomiar 8: 0.006323 s
+[Modyfikacja email] Pomiar 9: 0.006486 s
+[Modyfikacja email] Pomiar 10: 0.006659 s
+
+Usuwanie użytkownika o id=1 10x:
+[Usuwanie użytkownika] Pomiar 1: 0.009607 s
+[Usuwanie użytkownika] Pomiar 2: 0.009207 s
+[Usuwanie użytkownika] Pomiar 3: 0.009349 s
+[Usuwanie użytkownika] Pomiar 4: 0.009119 s
+[Usuwanie użytkownika] Pomiar 5: 0.009252 s
+[Usuwanie użytkownika] Pomiar 6: 0.009254 s
+[Usuwanie użytkownika] Pomiar 7: 0.009043 s
+[Usuwanie użytkownika] Pomiar 8: 0.009652 s
+[Usuwanie użytkownika] Pomiar 9: 0.008763 s
+[Usuwanie użytkownika] Pomiar 10: 0.009405 s
+
+Usuwanie posta o id=1 10x:
+[Usuwanie posta] Pomiar 1: 0.034678 s
+[Usuwanie posta] Pomiar 2: 0.031256 s
+[Usuwanie posta] Pomiar 3: 0.034145 s
+[Usuwanie posta] Pomiar 4: 0.034410 s
+[Usuwanie posta] Pomiar 5: 0.034765 s
+[Usuwanie posta] Pomiar 6: 0.034626 s
+[Usuwanie posta] Pomiar 7: 0.035986 s
+[Usuwanie posta] Pomiar 8: 0.035858 s
+[Usuwanie posta] Pomiar 9: 0.034010 s
+[Usuwanie posta] Pomiar 10: 0.032903 s
+
+Usuwanie komentarza o id=1 10x:
+[Usuwanie komentarza] Pomiar 1: 0.140603 s
+[Usuwanie komentarza] Pomiar 2: 0.144264 s
+[Usuwanie komentarza] Pomiar 3: 0.140782 s
+[Usuwanie komentarza] Pomiar 4: 0.137540 s
+[Usuwanie komentarza] Pomiar 5: 0.141582 s
+[Usuwanie komentarza] Pomiar 6: 0.144593 s
+[Usuwanie komentarza] Pomiar 7: 0.142345 s
+[Usuwanie komentarza] Pomiar 8: 0.137387 s
+[Usuwanie komentarza] Pomiar 9: 0.152781 s
+[Usuwanie komentarza] Pomiar 10: 0.139215 s
+
+Zliczanie użytkowników 10x:
+[Zliczanie użytkowników] Pomiar 1: 0.001263 s
+[Zliczanie użytkowników] Pomiar 2: 0.001391 s
+[Zliczanie użytkowników] Pomiar 3: 0.001423 s
+[Zliczanie użytkowników] Pomiar 4: 0.001515 s
+[Zliczanie użytkowników] Pomiar 5: 0.001203 s
+[Zliczanie użytkowników] Pomiar 6: 0.001321 s
+[Zliczanie użytkowników] Pomiar 7: 0.001303 s
+[Zliczanie użytkowników] Pomiar 8: 0.001359 s
+[Zliczanie użytkowników] Pomiar 9: 0.001255 s
+[Zliczanie użytkowników] Pomiar 10: 0.001263 s
+
+Zliczanie postów 10x:
+[Zliczanie postów] Pomiar 1: 0.004022 s
+[Zliczanie postów] Pomiar 2: 0.004765 s
+[Zliczanie postów] Pomiar 3: 0.004581 s
+[Zliczanie postów] Pomiar 4: 0.003984 s
+[Zliczanie postów] Pomiar 5: 0.004717 s
+[Zliczanie postów] Pomiar 6: 0.004923 s
+[Zliczanie postów] Pomiar 7: 0.004590 s
+[Zliczanie postów] Pomiar 8: 0.004873 s
+[Zliczanie postów] Pomiar 9: 0.004621 s
+[Zliczanie postów] Pomiar 10: 0.004849 s
+
+Zliczanie komentarzy 10x:
+[Zliczanie komentarzy] Pomiar 1: 0.017279 s
+[Zliczanie komentarzy] Pomiar 2: 0.018173 s
+[Zliczanie komentarzy] Pomiar 3: 0.028226 s
+[Zliczanie komentarzy] Pomiar 4: 0.017924 s
+[Zliczanie komentarzy] Pomiar 5: 0.017266 s
+[Zliczanie komentarzy] Pomiar 6: 0.020420 s
+[Zliczanie komentarzy] Pomiar 7: 0.018306 s
+[Zliczanie komentarzy] Pomiar 8: 0.017333 s
+[Zliczanie komentarzy] Pomiar 9: 0.019225 s
+[Zliczanie komentarzy] Pomiar 10: 0.018009 s
+
+Masowe dodanie 100  komentarzy:
+[] Pomiar 1: 0.001555 s
+[] Pomiar 2: 0.001603 s
+[] Pomiar 3: 0.001552 s
+[] Pomiar 4: 0.006717 s
+[] Pomiar 5: 0.001407 s
+[] Pomiar 6: 0.001474 s
+[] Pomiar 7: 0.009006 s
+[] Pomiar 8: 0.001453 s
+[] Pomiar 9: 0.001413 s
+[] Pomiar 10: 0.001409 s

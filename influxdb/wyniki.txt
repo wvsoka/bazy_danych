@@ -32,6 +32,189 @@ Zlicz użytkowników 10x                        2.395 s (średnio z 1 prób)
 Zlicz posty 10x                               1.647 s (średnio z 1 prób)
 Zlicz komentarze 10x                          22.990 s (średnio z 1 prób)
 
+
+Dodanie 1 użytkownika 10 razy
+Próba 1: 0.0206 s
+Próba 2: 0.0506 s
+Próba 3: 0.0497 s
+Próba 4: 0.0497 s
+Próba 5: 0.0502 s
+Próba 6: 0.0493 s
+Próba 7: 0.0510 s
+Próba 8: 0.0497 s
+Próba 9: 0.0497 s
+Próba 10: 0.0507 s
+
+Dodanie 1 posta 10 razy
+Próba 1: 0.0498 s
+Próba 2: 0.0503 s
+Próba 3: 0.0491 s
+Próba 4: 0.0491 s
+Próba 5: 0.0504 s
+Próba 6: 0.0499 s
+Próba 7: 0.0498 s
+Próba 8: 0.0500 s
+Próba 9: 0.0497 s
+Próba 10: 0.0508 s
+
+Dodanie 1 komentarza 10 razy
+Próba 1: 0.0515 s
+Próba 2: 0.0483 s
+Próba 3: 0.0502 s
+Próba 4: 0.0502 s
+Próba 5: 0.0491 s
+Próba 6: 0.0508 s
+Próba 7: 0.0493 s
+Próba 8: 0.0501 s
+Próba 9: 0.0505 s
+Próba 10: 0.0500 s
+
+Odczyt wszystkich użytkowników 10 razy
+Próba 1: 0.2287 s
+Próba 2: 0.2283 s
+Próba 3: 0.2325 s
+Próba 4: 0.2285 s
+Próba 5: 0.2290 s
+Próba 6: 0.2233 s
+Próba 7: 0.2213 s
+Próba 8: 0.2203 s
+Próba 9: 0.2219 s
+Próba 10: 0.2299 s
+
+Odczyt wszystkich postów 10 razy
+Próba 1: 0.2994 s
+Próba 2: 0.2855 s
+Próba 3: 0.2918 s
+Próba 4: 0.2845 s
+Próba 5: 0.2971 s
+Próba 6: 0.3011 s
+Próba 7: 0.2974 s
+Próba 8: 0.2874 s
+Próba 9: 0.3207 s
+Próba 10: 0.2862 s
+
+Odczyt wszystkich komentarzy 10 razy
+Próba 1: 2.4166 s
+Próba 2: 2.4171 s
+Próba 3: 2.3544 s
+Próba 4: 2.3166 s
+Próba 5: 2.3626 s
+Próba 6: 2.3320 s
+Próba 7: 2.3293 s
+Próba 8: 2.3047 s
+Próba 9: 2.3389 s
+Próba 10: 2.3308 s
+
+Filtrowanie postów userId=100 10 razy
+Próba 1: 0.0456 s
+Próba 2: 0.0504 s
+Próba 3: 0.0486 s
+Próba 4: 0.0505 s
+Próba 5: 0.0491 s
+Próba 6: 0.0504 s
+Próba 7: 0.0499 s
+Próba 8: 0.0501 s
+Próba 9: 0.0500 s
+Próba 10: 0.0500 s
+
+Filtrowanie komentarzy postId=100 10 razy
+Próba 1: 0.0500 s
+Próba 2: 0.0593 s
+Próba 3: 0.0498 s
+Próba 4: 0.0499 s
+Próba 5: 0.0500 s
+Próba 6: 0.0495 s
+Próba 7: 0.0506 s
+Próba 8: 0.0496 s
+Próba 9: 0.0500 s
+Próba 10: 0.0500 s
+
+Modyfikacja email usera id=2 10 razy
+Próba 1: 0.0515 s
+Próba 2: 0.0505 s
+Próba 3: 0.0491 s
+Próba 4: 0.0490 s
+Próba 5: 0.0499 s
+Próba 6: 0.0526 s
+Próba 7: 0.0478 s
+Próba 8: 0.0496 s
+Próba 9: 0.0501 s
+Próba 10: 0.0499 s
+
+Usunięcie 1 użytkownika 10 razy
+Próba 1: 0.0634 s
+Próba 2: 0.0571 s
+Próba 3: 0.0556 s
+Próba 4: 0.0628 s
+Próba 5: 0.0571 s
+Próba 6: 0.0611 s
+Próba 7: 0.0597 s
+Próba 8: 0.0688 s
+Próba 9: 0.0610 s
+Próba 10: 0.0609 s
+
+Usunięcie 1 posta 10 razy
+Próba 1: 0.0554 s
+Próba 2: 0.0497 s
+Próba 3: 0.0510 s
+Próba 4: 0.0485 s
+Próba 5: 0.0520 s
+Próba 6: 0.0485 s
+Próba 7: 0.0517 s
+Próba 8: 0.0476 s
+Próba 9: 0.0507 s
+Próba 10: 0.0489 s
+
+Usunięcie 1 komentarza 10 razy
+Próba 1: 0.0486 s
+Próba 2: 0.0500 s
+Próba 3: 0.0489 s
+Próba 4: 0.0517 s
+Próba 5: 0.0483 s
+Próba 6: 0.0507 s
+Próba 7: 0.0502 s
+Próba 8: 0.0496 s
+Próba 9: 0.0499 s
+Próba 10: 0.0506 s
+
+Zliczanie użytkowników 10 razy
+Próba 1: 0.3085 s
+Próba 2: 0.2589 s
+Próba 3: 0.2473 s
+Próba 4: 0.2628 s
+Próba 5: 0.2601 s
+Próba 6: 0.2480 s
+Próba 7: 0.2544 s
+Próba 8: 0.2624 s
+Próba 9: 0.2425 s
+Próba 10: 0.2528 s
+
+Zliczanie postów 10 razy
+Próba 1: 0.1783 s
+Próba 2: 0.1758 s
+Próba 3: 0.1689 s
+Próba 4: 0.1851 s
+Próba 5: 0.1824 s
+Próba 6: 0.1743 s
+Próba 7: 0.1815 s
+Próba 8: 0.1764 s
+Próba 9: 0.1762 s
+Próba 10: 0.1944 s
+
+Zliczanie komentarzy 10 razy
+Próba 1: 2.5319 s
+Próba 2: 2.4531 s
+Próba 3: 2.4129 s
+Próba 4: 2.4514 s
+Próba 5: 2.5053 s
+Próba 6: 2.4341 s
+Próba 7: 2.4313 s
+Próba 8: 2.4532 s
+Próba 9: 2.4390 s
+Próba 10: 2.4349 s
+
+
+
 == Testy wydajnościowe ==
 ODCZYT WSZYSTKICH POSTÓW [s]
 Odczyt wszystkich postów - Próba 1: 0.247 s

@@ -7,6 +7,49 @@ Czas odczytu postów: 0.10724020004272461 sekund
 Czas masowego dodania: 1.5430922508239746 sekund
 Czas usunięcia komentarzy: 1.5448870658874512 sekund
 
+
+Odczyt wszystkich postów - Próba 1: 0.09622859954833984 sekund
+Odczyt wszystkich postów - Próba 2: 0.0925588607788086 sekund
+Odczyt wszystkich postów - Próba 3: 0.09238696098327637 sekund
+Odczyt wszystkich postów - Próba 4: 0.09348917007446289 sekund
+Odczyt wszystkich postów - Próba 5: 0.0960838794708252 sekund
+Odczyt wszystkich postów - Próba 6: 0.09160494804382324 sekund
+Odczyt wszystkich postów - Próba 7: 0.09926009178161621 sekund
+Odczyt wszystkich postów - Próba 8: 0.08626794815063477 sekund
+Odczyt wszystkich postów - Próba 9: 0.09547686576843262 sekund
+Odczyt wszystkich postów - Próba 10: 0.0966806411743164 sekund
+Masowe dodanie postów - Próba 1: 1.5314817428588867 sekund
+Masowe dodanie postów - Próba 2: 1.5449600219726562 sekund
+Masowe dodanie postów - Próba 3: 1.541445016860962 sekund
+Masowe dodanie postów - Próba 4: 1.538295030593872 sekund
+Masowe dodanie postów - Próba 5: 1.5432374477386475 sekund
+Masowe dodanie postów - Próba 6: 1.541543960571289 sekund
+Masowe dodanie postów - Próba 7: 1.5456314086914062 sekund
+Masowe dodanie postów - Próba 8: 1.5409462451934814 sekund
+Masowe dodanie postów - Próba 9: 1.5439989566802979 sekund
+Masowe dodanie postów - Próba 10: 1.5448367595672607 sekund
+Masowe dodanie komentarzy - Próba 1: 1.5445821285247803 sekund
+Masowe dodanie komentarzy - Próba 2: 1.5438449382781982 sekund
+Masowe dodanie komentarzy - Próba 3: 1.5404343605041504 sekund
+Masowe dodanie komentarzy - Próba 4: 1.5419132709503174 sekund
+Masowe dodanie komentarzy - Próba 5: 1.5421550273895264 sekund
+Masowe dodanie komentarzy - Próba 6: 1.542083740234375 sekund
+Masowe dodanie komentarzy - Próba 7: 1.544504165649414 sekund
+Masowe dodanie komentarzy - Próba 8: 1.5390470027923584 sekund
+Masowe dodanie komentarzy - Próba 9: 1.5449066162109375 sekund
+Masowe dodanie komentarzy - Próba 10: 1.5417990684509277 sekund
+Masowe usunięcie komentarzy - Próba 1: 0.15430569648742676 sekund
+Masowe usunięcie komentarzy - Próba 2: 0.15388202667236328 sekund
+Masowe usunięcie komentarzy - Próba 3: 0.15417218208312988 sekund
+Masowe usunięcie komentarzy - Próba 4: 0.15430116653442383 sekund
+Masowe usunięcie komentarzy - Próba 5: 0.15283489227294922 sekund
+Masowe usunięcie komentarzy - Próba 6: 0.15400981903076172 sekund
+Masowe usunięcie komentarzy - Próba 7: 0.1534132957458496 sekund
+Masowe usunięcie komentarzy - Próba 8: 0.1533951759338379 sekund
+Masowe usunięcie komentarzy - Próba 9: 0.15319609642028809 sekund
+Masowe usunięcie komentarzy - Próba 10: 0.1545701026916504 sekund
+
+
 --- NOWE TESTY ---
 
 Dodanie użytkownika 1/10: 0.0158 sekund

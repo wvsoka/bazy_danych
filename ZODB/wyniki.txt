@@ -1,0 +1,337 @@
+Dodawanie użytkowników (100×100) 10 razy
+Próba 1: 0.00100 s
+Próba 2: 0.00100 s
+Próba 3: 0.00200 s
+Próba 4: 0.00100 s
+Próba 5: 0.00200 s
+Próba 6: 0.00100 s
+Próba 7: 0.00210 s
+Próba 8: 0.00100 s
+Próba 9: 0.00200 s
+Próba 10: 0.00200 s
+Średni czas: 0.00151 s
+
+Dodawanie postów (100×100) 10 razy
+Próba 1: 0.01352 s
+Próba 2: 0.01150 s
+Próba 3: 0.01277 s
+Próba 4: 0.01116 s
+Próba 5: 0.01210 s
+Próba 6: 0.01083 s
+Próba 7: 0.01200 s
+Próba 8: 0.01100 s
+Próba 9: 0.01100 s
+Próba 10: 0.01100 s
+Średni czas: 0.01169 s
+
+Dodawanie komentarzy (100×100) 10 razy
+Próba 1: 0.08208 s
+Próba 2: 0.06903 s
+Próba 3: 0.06601 s
+Próba 4: 0.06792 s
+Próba 5: 0.06686 s
+Próba 6: 0.06851 s
+Próba 7: 0.06613 s
+Próba 8: 0.06604 s
+Próba 9: 0.06600 s
+Próba 10: 0.06561 s
+Średni czas: 0.06842 s
+
+Masowe dodanie 100 postów 10 razy
+Próba 1: 0.00100 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00100 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00020 s
+
+Usunięcie 100 komentarzy 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00100 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00100 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00100 s
+Średni czas: 0.00030 s
+
+Odczyt wszystkich postów 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00100 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00010 s
+
+Dodanie 1 użytkownika 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Dodanie 1 posta 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Dodanie 1 komentarza 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Odczyt wszystkich użytkowników 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Odczyt wszystkich postów 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Odczyt wszystkich komentarzy 10 razy
+Próba 1: 0.00100 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00100 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00100 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00030 s
+
+Filtrowanie postów userId=100 10 razy
+Próba 1: 0.00100 s
+Próba 2: 0.00000 s
+Próba 3: 0.00100 s
+Próba 4: 0.00000 s
+Próba 5: 0.00100 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00100 s
+Próba 9: 0.00000 s
+Próba 10: 0.00100 s
+Średni czas: 0.00050 s
+
+Filtrowanie komentarzy postId=100 10 razy
+Próba 1: 0.00200 s
+Próba 2: 0.00200 s
+Próba 3: 0.00200 s
+Próba 4: 0.00202 s
+Próba 5: 0.00300 s
+Próba 6: 0.00200 s
+Próba 7: 0.00200 s
+Próba 8: 0.00153 s
+Próba 9: 0.00200 s
+Próba 10: 0.00200 s
+Średni czas: 0.00205 s
+
+Modyfikacja email usera id=2 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Usunięcie 1 użytkownika 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00100 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00010 s
+
+Usunięcie 1 posta 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00100 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00010 s
+
+Usunięcie 1 komentarza 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00100 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00100 s
+Średni czas: 0.00020 s
+
+Zliczanie użytkowników 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00000 s
+
+Zliczanie postów 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00100 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00100 s
+Próba 6: 0.00000 s
+Próba 7: 0.00100 s
+Próba 8: 0.00000 s
+Próba 9: 0.00100 s
+Próba 10: 0.00000 s
+Średni czas: 0.00040 s
+
+Zliczanie komentarzy 10 razy
+Próba 1: 0.00200 s
+Próba 2: 0.00300 s
+Próba 3: 0.00200 s
+Próba 4: 0.00300 s
+Próba 5: 0.00200 s
+Próba 6: 0.00200 s
+Próba 7: 0.00200 s
+Próba 8: 0.00300 s
+Próba 9: 0.00200 s
+Próba 10: 0.00300 s
+Średni czas: 0.00240 s
+
+Test odczytu wszystkich postów 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00000 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00000 s
+Próba 9: 0.00100 s
+Próba 10: 0.00000 s
+Średni czas: 0.00010 s
+
+Posty usera 999 – filtrowanie 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00100 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00100 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00100 s
+Próba 9: 0.00000 s
+Próba 10: 0.00100 s
+Średni czas: 0.00040 s
+
+Masowe dodanie 100 postów 10 razy
+Próba 1: 0.00100 s
+Próba 2: 0.00100 s
+Próba 3: 0.00100 s
+Próba 4: 0.00200 s
+Próba 5: 0.00100 s
+Próba 6: 0.00100 s
+Próba 7: 0.00100 s
+Próba 8: 0.00100 s
+Próba 9: 0.00100 s
+Próba 10: 0.00100 s
+Średni czas: 0.00110 s
+
+Masowe dodanie 100 komentarzy 10 razy
+Próba 1: 0.00400 s
+Próba 2: 0.00300 s
+Próba 3: 0.00400 s
+Próba 4: 0.00300 s
+Próba 5: 0.00300 s
+Próba 6: 0.00400 s
+Próba 7: 0.00300 s
+Próba 8: 0.00500 s
+Próba 9: 0.00401 s
+Próba 10: 0.00400 s
+Średni czas: 0.00370 s
+
+Masowe usunięcie 100 komentarzy 10 razy
+Próba 1: 0.00000 s
+Próba 2: 0.00000 s
+Próba 3: 0.00000 s
+Próba 4: 0.00000 s
+Próba 5: 0.00100 s
+Próba 6: 0.00000 s
+Próba 7: 0.00000 s
+Próba 8: 0.00100 s
+Próba 9: 0.00000 s
+Próba 10: 0.00000 s
+Średni czas: 0.00020 s

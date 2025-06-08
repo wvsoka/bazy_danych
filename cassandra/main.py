@@ -7,8 +7,6 @@ cluster = Cluster(['127.0.0.1'])
 session = cluster.connect()
 
 
-session.execute("DROP KEYSPACE IF EXISTS test_data")
-
 # Tworzenie keyspace
 session.execute("""
 CREATE KEYSPACE IF NOT EXISTS test_data
@@ -141,23 +139,39 @@ def test_count_posts():
     rows = session.execute("SELECT * FROM posts")
     return len(list(rows))
 
-def measure_read_all_posts():
-    start = time.time()
-    rows = list(session.execute("SELECT * FROM posts"))
-    print("Czas odczytu postów:", time.time() - start, "sekund")
+def measure_read_all_posts_10_proby():
+    for i in range(10):
+        start = time.time()
+        _ = list(session.execute("SELECT * FROM posts"))
+        end = time.time()
+        print(f"Odczyt wszystkich postów - Próba {i+1}: {end - start} sekund")
 
-def measure_mass_inserts():
-    start = time.time()
-    for i in range(2000, 2100):
-        session.execute("INSERT INTO posts (id, userId, title, body) VALUES (%s, %s, %s, %s)",
-                        (i, 1, f"title {i}", "some body"))
-    print("Czas masowego dodania:", time.time() - start, "sekund")
+def measure_mass_inserts_10_proby():
+    for i in range(10):
+        start = time.time()
+        for j in range(2000 + i * 100, 2000 + (i + 1) * 100):
+            session.execute("INSERT INTO posts (id, userId, title, body) VALUES (%s, %s, %s, %s)",
+                            (j, 1, f"title {j}", "some body"))
+        end = time.time()
+        print(f"Masowe dodanie postów - Próba {i+1}: {end - start} sekund")
 
-def measure_mass_delete_comments():
-    start = time.time()
-    for i in range(1, 101):
-        session.execute("DELETE FROM comments WHERE id=%s", (i,))
-    print("Czas usunięcia komentarzy:", time.time() - start, "sekund")
+def measure_mass_inserts_10_proby_komentarze():
+    for i in range(10):
+        start = time.time()
+        for j in range(2000 + i * 100, 2000 + (i + 1) * 100):
+            session.execute("INSERT INTO comments (id, postId, email, body) VALUES (%s, %s, %s, %s)",
+                            (j, 1, f"email {j}", "some body"))
+        end = time.time()
+        print(f"Masowe dodanie komentarzy - Próba {i+1}: {end - start} sekund")
+
+
+def measure_mass_delete_comments_10_proby():
+    for i in range(10):
+        start = time.time()
+        for j in range(1 + i * 10, 1 + (i + 1) * 10):
+            session.execute("DELETE FROM comments WHERE id=%s", (j,))
+        end = time.time()
+        print(f"Masowe usunięcie komentarzy - Próba {i+1}: {end - start} sekund")
 
 # ... (Twój dotychczasowy kod)
 
@@ -299,9 +313,10 @@ if __name__ == "__main__":
     test_update_user()
     print("Filtrowane posty:", test_filtered_posts()[:2])
     print("Liczba postów:", test_count_posts())
-    measure_read_all_posts()
-    measure_mass_inserts()
-    measure_mass_delete_comments()
+    measure_read_all_posts_10_proby()
+    measure_mass_inserts_10_proby()
+    measure_mass_inserts_10_proby_komentarze()
+    measure_mass_delete_comments_10_proby()
     test_delete_user()
 
     print("\n--- NOWE TESTY ---\n")
